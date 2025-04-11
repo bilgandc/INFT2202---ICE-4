@@ -4,7 +4,8 @@
 import express, { Request, Response } from "express";
 import path from 'path';
 import { fileURLToPath } from 'url';
-import contactRoutes from "./contactRoutes";
+import contactRoutes from './contactRoutes.js';
+
 
 // convert path to __dirname equivalent
 const __filename = fileURLToPath(import.meta.url);
