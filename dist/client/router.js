@@ -1,5 +1,5 @@
 "use strict";
-import { LoadHeader } from "./header.js";
+import { LoadHeader } from "./header";
 export class Router {
     constructor(routes) {
         this.routes = routes;

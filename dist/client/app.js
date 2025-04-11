@@ -1,11 +1,11 @@
 // IIFE
 "use strict";
-import { LoadHeader } from "./header.js";
-import { Router } from "./router.js";
-import { LoadFooter } from "./footer.js";
-import { AuthGuard } from "./authguard.js";
+import { LoadHeader } from "./header";
+import { Router } from "./router";
+import { LoadFooter } from "./footer";
+import { AuthGuard } from "./authguard";
 import { deleteContact, fetchContact, fetchContacts } from "./api/contacts/index.js";
-import { AddContact, addEventListenerOnce, attachValidationListeners, DisplayWeather, handleEditClick, validateForm } from "./utils.js";
+import { AddContact, addEventListenerOnce, attachValidationListeners, DisplayWeather, handleEditClick, validateForm } from "./utils";
 const pageTitles = {
     "/": "Home",
     "/about": "About",

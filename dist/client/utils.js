@@ -1,4 +1,4 @@
-import { Contact } from "./contact.js";
+import { Contact } from "./contact";
 import { createContact, updateContact } from "./api/contacts/index.js";
 const VALIDATION_RULES = {
     fullName: {
