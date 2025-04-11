@@ -1,0 +1,22 @@
+{
+  "users" : [
+  {
+    "DisplayName" : "Henry Cavill",
+    "EmailAddress": "henry@gmail.com",
+    "Username": "henrycavill",
+    "Password": "12345"
+  },
+  {
+    "DisplayName" : "Chris Evans",
+    "EmailAddress": "chris@gmail.com",
+    "Username": "chrisevans",
+    "Password": "12345"
+  },
+  {
+    "DisplayName" : "admin",
+    "EmailAddress": "admin@gmail.com",
+    "Username": "admin1",
+    "Password": "12345"
+  }
+    ]
+}

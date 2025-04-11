@@ -1,0 +1,31 @@
+{
+  "name": "Week11",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server/server.js",
+    "dev": "tsc && node dist/server/server.js",
+    "clean": "rimraf dist",
+    "clean-build": "npm run clean && npm run build",
+    "watch": "tsc --watch",
+    "start:dev": "nodemon dist/server/server.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.13",
+    "nodemon": "^3.1.9",
+    "rimraf": "^6.0.1"
+  }
+}
